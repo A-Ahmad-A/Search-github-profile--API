@@ -1,0 +1,48 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+  }
+
+  .card {background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #1b2845 74%);
+    
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 1em;
+    box-shadow: rgba(6, 119, 205, 0.923) 0px 8px 15px 5px;;
+  }
+
+  .profile img{
+    height: 270px;
+    width: 300px;
+  }
+
+  .name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+  }
+  .SearchBar input{
+    width: 200px;
+    height: 20px;
+     
+    box-shadow: rgba(6, 119, 205, 0.923) 0px 8px 15px 5px;
+}
+
+  .SearchBar button {
+    width: 200px;
+    height: 24px;
+    margin-bottom: 50px;  
+    box-shadow: rgba(6, 119, 205, 0.923) 0px 8px 15px 5px;
+    border-radius: 0;
+  }
+
+  .heading p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:#EEEFF1;
+    font-size: x-large;
+  }
